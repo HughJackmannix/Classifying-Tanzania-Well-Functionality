@@ -95,7 +95,7 @@ This dataset was mainly comprised of 30 object features, and only 9 features wit
 ## EDA
 
 
-![img](./images/tanz_map)
+![img](./images/tanz.png)
 
 No glaring concentrations of a particular well classification to discern from geographical data
 
@@ -103,8 +103,8 @@ No glaring concentrations of a particular well classification to discern from ge
     - Mara, Mtwara, Tabora, Rukwa, Mwanza, Kigoma, Lindi, Dodoma, Mbeya, Singida, Dar es Salaam 
 
 <p float="left">
-  <img src="./images/region.png" width="400" />
-  <img src="./images/region_map.png" width="400" /> 
+  <img src="./images/region.png" width="350" />
+  <img src="./images/region_map.png" width="350" /> 
 </p>  
 
 - Wells over the age of 24 tended to have more "Non-functioning" wells than "Functioning"
@@ -115,7 +115,7 @@ No glaring concentrations of a particular well classification to discern from ge
 - Nearly all wells with quantity = 'dry' are "Non-functioning' 
 - Wells with quantity = 'insufficient' have high "Non-functioning' counts (while still lower than 'Functioning')
 
-![img](./images/quantity)
+![img](./images/quantity.png)
 
 - January, April, and July experienced higher reports of "Non-functioning" than "Functioning" 
 
@@ -142,8 +142,8 @@ The final XGBoost model was achieved after three iterations of optimization via 
 **Baseline:**
 
 <p float="left">
-  <img src="./images/base_cr.png" width="100" />
-  <img src="./images/base_cm.png" width="100" /> 
+  <img src="./images/base_cr.png" width="350" />
+  <img src="./images/base_cm.png" width="350" /> 
 </p> 
 
 - This baseline was the first baseline to not completely overfit the training data
@@ -151,8 +151,8 @@ The final XGBoost model was achieved after three iterations of optimization via 
 **Final Model:**
 
 <p float="left">
-  <img src="./images/final_cr.png" width="100" />
-  <img src="./images/final_cm.png" width="100" /> 
+  <img src="./images/final_cr.png" width="350" />
+  <img src="./images/final_cm.png" width="350" /> 
 </p> 
 
 - Considering that False Negatives are much more harmful than False Positives, the difference between the two is acceptable
