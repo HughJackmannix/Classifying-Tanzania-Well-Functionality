@@ -20,7 +20,6 @@ All models were trained and tested on data collected from 47,304 wells
     1. Logistic Regression
     2. DecisionTree
     3. RandomForest
-    4. SVM
     5. XGBoost
     
     
@@ -30,11 +29,11 @@ The original data provided three target variables
 2. Non-functional
 3. Funcional-Needs Repair
 
-![img](./images/class_imbalance.png)
 
 Due to a major class imbalance against 'Functional-Needs Repair', preliminary models produced severly low recall for this variable
 
-REPORT
+![img](./images/class_imbalance.png)
+
 
 To address this imbalance, 'Non-functional' and 'Functional-Needs Repair' were combined due to the following considerations:
     1. A well that is 'Functional-Needs Repair' is not fully functional, and will decline to 'Nonfunctional' if not addressed
@@ -42,8 +41,7 @@ To address this imbalance, 'Non-functional' and 'Functional-Needs Repair' were c
         - Wells that are 'Non-functinonal' that are classified as 'Functional-Needs Repair' would be less of a priority to fix 
         - Wells that are 'Functional-Needs Repair' that are classified as 'Functional' miss the chance for being repaired before becoming 'Non-functional' 
     3. Additional misclassifications cannot be risked when working with human rights such as access to clean water 
-        
-REPORT
+    
 
 ---------------------------------------------------------------
 
@@ -119,7 +117,7 @@ No glaring concentrations of a particular well classification to discern from ge
 
 - January, April, and July experienced higher reports of "Non-functioning" than "Functioning" 
 
-![img](./images/month.png)
+![img](./images/month_rain.png)
 
 - Wells with quality_group = 'salty' have a higher 'Non-functioning' count than 'Functioning' 
 
@@ -133,7 +131,6 @@ No glaring concentrations of a particular well classification to discern from ge
 1. Logistic Regression 
 2. DecisionTree
 3. RandomForest
-4. SVM
 5. XGBoost (FINAL) 
 
 ### Final Model 
@@ -196,7 +193,9 @@ With the predictive capabilities the model and the insight of the initial EDA, N
 ## Further Investigation 
 
 - Conduct PCA during initial data cleaning in order to reduce dimensionality in a more calculated manner
-- 
+- Advocate for additional  metrics to be used to describe “Water Quality”
+- Advocate for higher recording rates during dry season
+
 
 ---------------------------------------------------------------
 
