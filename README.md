@@ -103,8 +103,8 @@ No glaring concentrations of a particular well classification to discern from ge
     - Mara, Mtwara, Tabora, Rukwa, Mwanza, Kigoma, Lindi, Dodoma, Mbeya, Singida, Dar es Salaam 
 
 <p float="left">
-  <img src="./images/region.png" width="100" />
-  <img src="./images/region_map.png" width="100" /> 
+  <img src="./images/region.png" width="400" />
+  <img src="./images/region_map.png" width="400" /> 
 </p>  
 
 - Wells over the age of 24 tended to have more "Non-functioning" wells than "Functioning"
